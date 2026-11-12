@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "testMode": true,
+  "adUnits": {
+    "banner": "demo-banner-yandex",
+    "native": "demo-native-content-yandex",
+    "interstitial": "demo-interstitial-yandex",
+    "rewarded": "demo-rewarded-yandex",
+    "appOpen": "demo-appopenad-yandex"
+  },
+  "enabled": true,
+  "appOpen": {
+    "enabled": true,
+    "coldStart": true,
+    "warmStart": true,
+    "minBackgroundSeconds": 0,
+    "cooldownSeconds": 0,
+    "maxWaitMs": 4000,
+    "everyEntry": true
+  },
+  "onboardingInterstitial": {
+    "enabled": true,
+    "maxWaitMs": 4000
+  },
+  "interstitial": {
+    "enabled": true,
+    "everyNavigationClicks": 2,
+    "cooldownSeconds": 15,
+    "minSessionSeconds": 5,
+    "afterReadArticles": 1,
+    "minReadSeconds": 20
+  },
+  "banner": {
+    "enabled": true
+  },
+  "native": {
+    "enabled": true
+  },
+  "rewarded": {
+    "enabled": true
+  }
+}
